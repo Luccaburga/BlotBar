@@ -1,0 +1,142 @@
+{
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Hamburguesas",
+      "description": "Incluyen medallon de carne de 130grs (excepto Veggie)",
+      "items": [
+        { "name": "Veggie", "price": 13200, "desc": "Hamburguesa vegana de quinoa" },
+        { "name": "50-50", "price": 13000, "desc": "Simple (Doble $17.500 | Triple $22.000 con cheddar)" },
+        { "name": "Ollie", "price": 13500, "desc": "Simple (Doble $18.000 | Triple $25.000 con tomate, lechuga y cheddar)" },
+        { "name": "Bores", "price": 14000, "desc": "Simple (Doble $18.500 | Triple $23.000 con bacon, cheddar y cebolla caramelizada)" },
+        { "name": "Varial", "price": 14000, "desc": "Simple (Doble $18.500 | Triple $23.000 con muzarella, cebolla crispy, morron asado y salsa BBQ)" },
+        { "name": "Flip", "price": 13500, "desc": "Simple (Doble $23.000 | Triple $23.000 con provoleta y bacon)" }
+      ]
+    },
+    {
+      "id": "papas",
+      "name": "Papas Fritas",
+      "items": [
+        { "name": "Simples / Provenzal", "price": 12000, "desc": "" },
+        { "name": "Con Cheddar", "price": 13500, "desc": "" },
+        { "name": "Con Cheddar y Bacon / Verdeo", "price": 14000, "desc": "" },
+        { "name": "Con Muza y Parrillera", "price": 14000, "desc": "" }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "name": "Pizzas",
+      "items": [
+        { "name": "Muzarella", "price": 18000, "desc": "Grande (Chica $12.000)" },
+        { "name": "Napolitana", "price": 19000, "desc": "Grande (Chica $13.000 - Con tomate en rodajas)" },
+        { "name": "Provolone", "price": 20000, "desc": "Grande (Chica $14.000 - Con panceta y verdeo)" },
+        { "name": "Fugazzeta", "price": 18000, "desc": "Grande (Chica $12.000 - Con cebolla y muzarella)" },
+        { "name": "Jamon y Morrones", "price": 15000, "desc": "Chica" },
+        { "name": "Rucula y Jamon Crudo", "price": 21000, "desc": "Grande" }
+      ]
+    },
+    {
+      "id": "canillas",
+      "name": "Cervezas Tiradas",
+      "items": [
+        { "name": "Pilsen", "price": 6500, "desc": "Rubia cristalina, floral, elegante. Alc: 4,9%" },
+        { "name": "Honey", "price": 6500, "desc": "Dorada, miel, balanceada. Alc: 8%" },
+        { "name": "Scotish", "price": 6500, "desc": "Roja con notas a caramelo, toffee y frutas pasas. Alc: 5,6%" },
+        { "name": "English IPA", "price": 7000, "desc": "Origen citrico, amargor intenso, dulzor de caramelo. Alc: 6%" },
+        { "name": "Session IPA", "price": 7000, "desc": "Frutal, aromatica, bajo amargor, ligera. Alc: 4,9%" },
+        { "name": "APA", "price": 7500, "desc": "Amargor medio, citrica, frutada. Alc: 5,5%" },
+        { "name": "Hazy IPA", "price": 9500, "desc": "Turbia, aromatica, perfecta confusion. Alc: 5,8%" },
+        { "name": "Black Mamba", "price": 7000, "desc": "Negra con notas dulces y tostadas. Alc: 6,5%" }
+      ]
+    },
+    {
+      "id": "bebidas_alcohol",
+      "name": "Bebidas con Alcohol",
+      "items": [
+        { "name": "Champagne Novecento", "price": 22000, "desc": "" },
+        { "name": "Andes IPA", "price": 4700, "desc": "" },
+        { "name": "Budweiser", "price": 4400, "desc": "" },
+        { "name": "Brahma Lata", "price": 4200, "desc": "" },
+        { "name": "Brahmita", "price": 3300, "desc": "" },
+        { "name": "Lata 1890", "price": 2400, "desc": "" }
+      ]
+    },
+    {
+      "id": "bebidas_sin_alcohol",
+      "name": "Bebidas sin Alcohol",
+      "items": [
+        { "name": "Linea Pepsi / Seven Up", "price": 4400, "desc": "500cc / Lata" },
+        { "name": "Speed", "price": 4500, "desc": "250cc" },
+        { "name": "Agua / Agua C/Gas", "price": 3300, "desc": "" },
+        { "name": "Aguas Saborizadas", "price": 3300, "desc": "Pomelo, Naranja o Anana" },
+        { "name": "Limonada", "price": 5000, "desc": "" }
+      ]
+    },
+    {
+      "id": "picar",
+      "name": "Para Picar",
+      "items": [
+        { "name": "Picada Blot", "price": 90000, "desc": "Comen 8: Fingers pollo, bastones muza, buñuelos, aros cebolla, rabas, tortilla, salchichitas y papas" },
+        { "name": "Picada Blot Media", "price": 47000, "desc": "Comen 4: Version reducida" },
+        { "name": "Rabas / Fingers de Pollo", "price": 14000, "desc": "Acompañado con papas fritas" },
+        { "name": "Bastones de Muzarella / Aros de Cebolla", "price": 14000, "desc": "Acompañado con papas fritas" },
+        { "name": "Buñuelos de Acelga", "price": 14000, "desc": "Acompañado con papas fritas" },
+        { "name": "Tortilla de Papa", "price": 12000, "desc": "Casera, con papas fritas" },
+        { "name": "Salchichitas Copetin", "price": 14000, "desc": "Con papas fritas" }
+      ]
+    },
+    {
+      "id": "empanadas",
+      "name": "Empanadas",
+      "items": [
+        { "name": "Carne", "price": 3000, "desc": "Frita o al horno" },
+        { "name": "Pollo", "price": 3000, "desc": "Frita o al horno" },
+        { "name": "Jamon y Queso", "price": 3000, "desc": "Frita o al horno" },
+        { "name": "Caprese", "price": 3000, "desc": "Frita o al horno" },
+        { "name": "Bondiola", "price": 3000, "desc": "Frita o al horno" }
+      ]
+    },
+    {
+      "id": "panchos",
+      "name": "Panchos",
+      "items": [
+        { "name": "Simple", "price": 11000, "desc": "" },
+        { "name": "Aleman", "price": 11000, "desc": "Salchicha tipo alemana con panceta y cheddar" },
+        { "name": "Guacamole", "price": 11000, "desc": "Salchicha tipo alemana con guacamole" },
+        { "name": "Oss", "price": 11000, "desc": "Salchicha tipo alemana con muzarella y salchicha parrillera" }
+      ]
+    },
+    {
+      "id": "mediodia",
+      "name": "Especial Medio Dia",
+      "items": [
+        { "name": "Milanesa con Fritas o Ensalada", "price": 16000, "desc": "(Napolitana $18.000)" },
+        { "name": "Sandwich Milanesa Pan Casero", "price": 16000, "desc": "Simple (Completo L+T $18.000)" },
+        { "name": "Sandwich Milanesa Mega", "price": 24000, "desc": "Con Jamon, Queso, Lechuga, Tomate, Huevo y Papas Fritas" },
+        { "name": "Ensalada Clasica", "price": 8500, "desc": "Lechuga, tomate y cebolla" }
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "name": "Cafeteria y Merienda",
+      "items": [
+        { "name": "Cafe Jarrito", "price": 4000, "desc": "(Doble $5.000)" },
+        { "name": "Cortado / Lagrima", "price": 3500, "desc": "Jarrito (Doble $4.000 - $4.500)" },
+        { "name": "Exprimido / Licuados", "price": 6000, "desc": "Naranja, Banana o Frutilla" },
+        { "name": "Tostado Arabe", "price": 7000, "desc": "Jamon y Queso" },
+        { "name": "Medialuna Simple", "price": 3000, "desc": "(Con Jamon y Queso $4.000)" },
+        { "name": "Tostadas Pan de Molde", "price": 3000, "desc": "Con queso crema y mermelada" }
+      ]
+    },
+    {
+      "id": "postres",
+      "name": "Postres",
+      "items": [
+        { "name": "Tiramisu", "price": 7000, "desc": "" },
+        { "name": "Cheesecake de frutos rojos", "price": 7000, "desc": "" },
+        { "name": "Oreo", "price": 7000, "desc": "" },
+        { "name": "Chocotorta en frasco", "price": 7000, "desc": "" }
+      ]
+    }
+  ]
+}
